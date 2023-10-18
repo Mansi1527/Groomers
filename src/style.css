@@ -1,0 +1,352 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    margin-left: 300px;
+    margin-top: 3rem;
+    width: 50vw;
+    padding-block: 0.7rem;
+    text-indent: 0.8rem;
+    border: 1px solid grey;
+    border-radius: 5px;
+    text-decoration: aliceblue;
+    position: absolute;
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
+.image-wrapper{
+    margin-top: 0rem;
+    display: flex;
+    position: relative;
+}
+.image{
+    width: 98vw;
+    
+}
+.image-text{
+    font-size: 25px;
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+
+.Heading{
+    font-family:cursive;
+    position: absolute;
+    font-size: 70px;
+    bottom: 45%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+.heading2{
+    margin: 50px;
+    font-family:cursive;
+    position: absolute;
+    font-size: 35px;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    color: white;
+}
+
+@media(max-width:991px){
+
+    html{
+        font-size: 35%;
+    }
+
+    .heading2 span{
+        font-size: 10rem;
+    }
+    .input{
+        margin-left: 185px;
+    }
+}
+
+@media(max-width:768px){
+    html{
+        font-size: 50%;
+    }
+    .Heading{
+        font-size: 50px;
+    }
+    .heading2{
+        bottom: 25%;
+        padding-top: 10px;
+        font-size: 20px;
+    
+    }
+    .heading2 span{
+        font-size: 20px;
+    }
+    .input{
+        margin-left: 150px;
+    }
+
+    .image-text{
+        font-size: 20px;
+        padding-bottom: 5px;
+    }
+
+    
+    
+
+}
+@media(max-width:450px){
+
+    
+    .Heading{
+        font-size: 55px;
+        padding-left: 15rem;
+    }
+    .heading2{
+        padding-top: 62px;
+        font-size: 10px;
+        top: 80px;
+        
+    margin-left: 20rem;
+        text-decoration: none;
+    
+    
+    
+    }
+    .heading2 span{
+        font-size: 15px;
+    }
+    
+    .input{
+        left: 6rem;
+        margin-left: 100px;
+        
+    }
+    .image{
+        width: 150%;
+    }
+    .image-text{
+        font-size: 15px;
+        padding-left: 12rem;
+        padding-bottom: 5px;
+    }
+
+
+}
+@media(max-width:300px){
+
+    
+    .Heading{
+        font-size: 45px;
+        padding-left: 16rem;
+    }
+    .heading2{
+        padding-top: 30px;
+        font-size: 10px;
+        top: 80px;
+        left: 0px;
+    /* margin-left: 15rem; */
+        
+    
+    
+    
+    }
+    .heading2 span{
+        font-size: 15px;
+    }
+    
+    .input{
+        left: 6rem;
+        margin-left: 100px;
+        
+    }
+    .image{
+        width: 150%;
+    }
+    .image-text{
+        font-size: 17px;
+        padding-left: 12rem;
+        padding-bottom: 5px;
+    }
+
+
+}
+/* @media only screen and(max-width:950px) {
+    .heading2{
+        color: red;
+    }
+}
+@media only screen and(max-width:600px) {
+    
+} */
+.page2{
+    display: flex;
+    width: 100%;
+    background-color: rgb(10, 10, 225);
+}
+.logg{
+    align-items: center;
+}
+.logo{
+    /* width: 100px;
+    height: 100px;  */
+    max-width: 190%;
+    max-height: 50%;
+}
+.img1{
+    margin-right:10rem;
+    margin-top: 50px;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 0;
+    width:65vw;
+}
+
+.quote{
+    background-color: rgb(10, 10, 225);
+    padding-left:17rem ;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.quoteH1{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+
+}
+.desc{
+    padding-left: 10rem;
+    padding-right: 0rem;
+    background-color:rgb(10, 10, 225); ;
+}
+.about{
+    
+    background-image: url('image/img4.webp');
+    width: 90%;
+    height: 36rem;
+    background-color: rgb(10, 10, 225);
+    color: black;
+    font-family:cursive;
+    padding-left: 5rem;
+    padding-right: 3rem;
+    padding-top: 40px;
+}
+.Dive{
+    color: rgb(239, 169, 39);
+    padding-top: 20px;
+    padding-left: 25rem;
+    font-size: 50px;
+}
+.service{
+    display: flex;
+}
+.package{
+    padding-left: 10rem;
+    padding-top: 10px;
+    color: brown;
+    font-family: cursive;
+}
+.learnMore{
+    padding-left: 1rem;
+    padding-top:25px ;
+    font-size: 22px;
+    color:#d45f1d;
+}
+.more{
+    padding-top: 15px;
+    padding-left: 70px;
+    padding-right: 60px;
+    color:darkslategray;
+    font-size: 22px;
+
+}
+.head4{
+    padding-top: 20px;
+    background-color: lightgrey;
+}
+
+
+
+
+.aboutUs{ 
+    
+    padding-left: 30rem;
+        font-size: 70px;
+      font-weight: 600;
+      background-image: repeating-radial-gradient(circle closest-corner at 100px 100px, #899a3c, #ee4b2b 10%, #553c9a 20%);
+      color: transparent;
+      background-clip: text;
+      -webkit-background-clip: text;
+      
+        
+        
+        
+    }
+    .description{
+        
+        background-size: 100rem 25rem;
+        color:white;
+        font-weight: lighter;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 91%;
+        height: fit-content;
+        padding-bottom: 20px;
+        box-shadow: 0 .5rem 1rem 1rem rgba(0,0,0,.1);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+    }
+    
+    .Socials{
+        font-size: small;
+        color:black;
+        background-color:#f4a460;
+    }
+    .description2, .description3 {
+        background-color:darkkhaki;
+        display: inline-block; 
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        width: 40%;
+        box-shadow: 0 .5rem 1rem 1rem rgba(0,0,0,.1);
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 20px;
+        margin: 10px; /* Add some margin for spacing between the boxes */
+    }
+    
+    .description3{ 
+        padding-top: 20px;
+    }
+
+.socials{
+    font-size: 50px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 10;
+    padding-left: 20px;
+}
+.desc4{
+    padding-left: 40px;
+    font-family: cursive;
+    font-size: 27px;
+}
+.img5{
+    
+    width: 70rem;
+    height: 40rem;
+    padding-left: 10rem;
+    padding-top: 20px;
+    padding-right: 5rem;
+}
